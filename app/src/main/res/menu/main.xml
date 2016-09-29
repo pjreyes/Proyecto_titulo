@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main">
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="uno"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="dos"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/edit"
+        android:title="tres"
+        android:orderInCategory="3"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/delete"
+        android:title="cuatro"
+        android:orderInCategory="4"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="cinco"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
